@@ -1,0 +1,62 @@
+body 
+{	
+	font-family: 'Roboto Slab', serif;
+}
+
+/*header section*/
+header 
+{
+	color:#415A68
+}
+
+header img
+{
+	border-radius: 5%;
+	box-shadow: 2px 2px 5px #415A68;
+}
+
+header .head-text
+{
+	margin-top:27px;
+}
+
+@media only screen and (max-width:991px)  /*xs and sm*/
+{
+	header div
+	{
+		text-align: center !important;
+		padding: 15px;
+	}
+	
+	header .head-text
+	{
+		margin-top:0
+	}
+	/*our-work section*/
+	.our-work h2  
+	{
+		text-align: center;
+	}
+}
+.our-work h2 
+{
+	margin: 50px 0 30px;
+}
+hr 
+{
+	height: 2px;
+	background-color: #415A68;
+}
+/*work section*/
+.work img
+{
+	margin: auto;
+}
+.work a
+{
+	text-align: center;
+	display: block;
+	padding: 15px 0;
+	margin-bottom: 8px;
+	transition: .5s ease-in-out;
+}
